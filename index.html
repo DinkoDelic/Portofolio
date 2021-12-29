@@ -1,15 +1,11 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
+﻿<!DOCTYPE html>
+
 <html class="no-js">
-  <!--<![endif]-->
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Dinko Delic</title>
-    <link rel="icon" type="image/x-icon" href="img/dragon-icon.ico">
+    <link rel="icon" type="image/x-icon" href="img/dragon-icon.ico" />
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
@@ -23,7 +19,6 @@
       crossorigin="anonymous"
     />
 
-    <!-- Update these with your own fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
       rel="stylesheet"
@@ -60,7 +55,7 @@
       <p class="section__subtitle section__subtitle--intro">full-stack dev</p>
       <img
         src="img/DinkoZermatt.jpg"
-        alt="Dinko in front of Matterhorn"
+        alt="Matterhorn"
         class="intro__img"
       />
     </section>
@@ -70,24 +65,28 @@
       <h2 class="section__title section__title--services">What I do</h2>
       <div class="services">
         <div class="service">
-          <h3>.NET Core</h3>
+          <h3>API</h3>
           <p>
-            Experience in building API's using ASP.NET and C#, connecting database software with Entity Framework and fetching data with LINQ 
-            as well as building Windows apps with WPF for user interface.
-          </p>
-        </div>
-
-        <div class="service">
-          <h3>SQL</h3>
-          <p>
-            Proficient with SQL Server and SQLite, establishing entity relationships, creating and mainting databases and writting SQL queries to update data.
+            Experience in building API's using .NET, connecting database
+            software with ORM's and fetching data with LINQ.
           </p>
         </div>
 
         <div class="service">
           <h3>Front-end</h3>
           <p>
-            Building Single Page Applications with Angular 9, fetching date from API, implementing reactive forms and creating a great looking UI with Bootstrap!
+            Building Single Page Applications with Angular 10 and React,
+            fetching data from API, implementing reactive forms and creating a
+            great looking UI with Bootstrap and TailwindCSS!
+          </p>
+        </div>
+
+        <div class="service">
+          <h3>SQL</h3>
+          <p>
+            Proficient with MySQL, SQL Server and PostgreSql, establishing
+            entity relationships, creating and mainting databases and writting
+            SQL queries.
           </p>
         </div>
       </div>
@@ -99,30 +98,34 @@
     <section class="about-me" id="about">
       <h2 class="section__title section__title--about">Who I am</h2>
       <p class="section__subtitle section__subtitle--about">
-        Graduate developer in Dublin
+        Web developer in Dublin
       </p>
 
       <div class="about-me__body">
         <p>
-          Wrapping up final year of Computer Science at DBS and in full swing at
-          working on personal web apps. Current project is an e-commerce site
-          using .NET Core, Angular and Stripe! 
-          <br>
-          I have a passion for self-learning and
-          raising my skills to a new level with each completed challenge.
+          I'm a software developer seeking opportunities to apply and expand my
+          knowledge and skills towards working in a collaborative environment to
+          develop quality software solutions. I'm a quick learner, passionate
+          about development and always ready to learn new technologies.
         </p>
+        <br />
+        <p>
+          In my free time I enjoy hiking, playing boardgames with friends and
+          learning new cooking recipes.
+        </p>
+        <br />
         <p>
           Current books I'm reading:
           <br />
-          - ASP.NET Core 3 and Angular 9 - 3rd Edition by Valerio De Sanctis
-          <br>
-          - Eloquent JavaScript - 3rd Edition by Marijn Haverbeke
+          - The Road to learn React - by Robin Wieruch
+          <br />
+          - The First Law - by Joe Abercrombie
         </p>
       </div>
 
       <img
         src="img/DinkoNorwayClose.jpg"
-        alt="Dinko on a pier"
+        alt="pier"
         class="about-me__img"
       />
     </section>
@@ -130,40 +133,67 @@
     <!--About-->
     <section class="my-work" id="work">
       <h2 class="section__title">My portofolio</h2>
-      <p class="section__subtitle">Selection of my work</p>
+      <p class="section__subtitle" style="margin-bottom: 1.5em">
+        Selection of my work
+      </p>
 
-      <div class="portofolio">
-        <a href="https://dinkodelicdatingapp.azurewebsites.net" target="_blank" class="portofolio__item">
-          <img src="img/DatingAppPic.png" alt="Datting app interface view" class="portofolio__img" />
+      <div class="portfolio">
+        <a
+          href="http://63.32.117.68:4000"
+          target="_blank"
+          class="portfolio__item"
+        >
+          <img
+            src="img/timeflix_home.png"
+            alt="timeflix home page view"
+            class="portfolio__img"
+          />
+        </a>
+        <a
+          href="https://dinkodelicdatingapp.azurewebsites.net"
+          target="_blank"
+          class="portfolio__item"
+        >
+          <img
+            src="img/DatingAppPic.png"
+            alt="Datting app interface view"
+            class="portfolio__img"
+          />
         </a>
       </div>
     </section>
 
     <!--Footer-->
     <footer class="footer">
-      <!-- replace with your own email address -->
-      <a href="mailto:delic.dinko94@gmail.com" class="footer__link"
-        >delic.dinko94@gmail.com</a
+      <a href="mailto:dinko.delic7@gmail.com" class="footer__link"
+        >dinko.delic7@gmail.com</a
       >
       <ul class="social-list">
         <li class="social-list__item">
-          <a class="social-list__link" target="_blank" href="https://www.linkedin.com/in/dinko-delic-3742a8196/">
-            <i class="fab fa-linkedin"></i>
-          </a>
-        </li>
-        <li class="social-list__item">
-          <a class="social-list__link" target="_blank" href="https://github.com/DinkoDelic?tab=repositories">
+          <a
+            class="social-list__link"
+            target="_blank"
+            href="https://github.com/DinkoDelic?tab=repositories"
+          >
             <i class="fab fa-github"></i>
           </a>
         </li>
         <li class="social-list__item">
-          <a class="social-list__link" target="_blank" href="https://www.freecodecamp.org/dinkod">
+          <a
+            class="social-list__link"
+            target="_blank"
+            href="https://www.freecodecamp.org/dinkod"
+          >
             <i class="fab fa-free-code-camp"></i>
           </a>
         </li>
       </ul>
     </footer>
 
-    <script src="js/index.js"></script>
+    <div id="flipdish-accessibility-widget" data-position="bottom"></div>
+    <script src="https://gitcdn.link/cdn/DinkoDelicFlipdish/accessiblity-widget-prod/main/runtime-main.85af1e67.js" defer></script>
+    <script src="https://gitcdn.link/cdn/DinkoDelicFlipdish/accessiblity-widget-prod/main/2.bbe3c269.chunk.js" defer></script>
+    <script src="https://gitcdn.link/cdn/DinkoDelicFlipdish/accessiblity-widget-prod/main/main.e55d8c8f.chunk.js" defer></script>
+    <link rel="stylesheet" href="https://gitcdn.link/cdn/DinkoDelicFlipdish/accessiblity-widget-prod/main/main.5d536502.chunk.css">
   </body>
 </html>
